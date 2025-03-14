@@ -457,3 +457,7 @@ if __name__ == "__main__":
     gr.mount_gradio_app(app, demo, path="/")
     import uvicorn
     uvicorn.run(app, host=args.server_name, port=args.server_port)
+
+
+# Run the script with the following command:
+# python webui.py
