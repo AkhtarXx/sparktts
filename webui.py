@@ -437,7 +437,7 @@ def parse_arguments():
     parser.add_argument(
         "--max_chunk_size",
         type=int,
-        default=500,
+        default=1000,
         help="Maximum text chunk size in characters for large text processing"
     )
     return parser.parse_args()
